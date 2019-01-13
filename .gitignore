@@ -30,3 +30,6 @@ proguard/
 *.iml
 .idea/
 functiongraphic.psd
+
+#Mac files
+.DS_Store
