@@ -16,10 +16,14 @@
         <![CDATA[
 
 Hi,<br><br>
-Thank you for taking the time to review my app.<br>
+Thank you for taking the time to review my app.<br><br>
+
+This app connects to the StackExchange API endpoints and retrieves the users for the website StackOverflow.<br>
+It displays the user name, reputation, badges and Gravatar through a RecyclerView.<br>
+The Gravatars are loaded only once, asynchronously, and are cached in memory and on disk for further usage. A circular progress bar is displayed while they are loading.<br>
+The app is responsive. It works on both phones and tablets in portrait and landscape mode.<br><br>
 
 To create this application I used several third-party libraries:<br><br>
-
 <u><h4>Retrofit2, OkHttp and Gson:</u></h4><br>
 Retrofit is a type-safe REST client for Android developed by Square. The library provides a powerful framework for authenticating and interacting with APIs and sending network requests with OkHttp<br><br>
 
