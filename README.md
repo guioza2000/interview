@@ -11,7 +11,7 @@ The app is responsive. It works on both phones and tablets in portrait and lands
 
 To create this application I used several third-party libraries.
 
-** Retrofit2, OkHttp and Gson: **
+**Retrofit2, OkHttp and Gson:**
 Retrofit is a type-safe REST client for Android developed by Square. The library provides a powerful framework for authenticating and interacting with APIs and sending network requests with OkHttp
 
 I used it to perform the request to the StackExchange API endpoint.
@@ -19,14 +19,14 @@ I then used Gson for deserializing the response into java object.
 
 [Retrofit2](https://square.github.io/retrofit/)
 
-** Picasso: **
+**Picasso:**
 Picasso is a powerful image downloading and caching library for Android developed by Square.
 
 I used it to handle the download and caching of the StackExchange gravatar's users image.
 
 [Picasso](http://square.github.io/picasso/)
 
-** Timber: **
+**Timber:**
 Timber is a logger with a small, extensible API which provides utility on top of Android's normal Log class.
 
 I used it instead of the default Android Log class.
