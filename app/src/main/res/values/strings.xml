@@ -1,0 +1,45 @@
+<resources>
+    <string name="app_name">Wag</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Guillaume Hubert</string>
+    <string name="nav_header_subtitle">guillaume.hubert.us@gmail.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+    <string name="user">User</string>
+    <string name="about">About</string>
+    <string name="no_data">We couldn\'t fetch the data</string>
+    <string name="refresh">Refresh</string>
+    <string name="quota">Remaining quota %d</string>
+
+    <string name="about_description">
+        <![CDATA[
+
+Hi,<br><br>
+Thank you for taking the time to review my app.<br>
+
+To create this application I used several third-party libraries:<br><br>
+
+<u><h4>Retrofit2, OkHttp and Gson:</u></h4><br>
+Retrofit is a type-safe REST client for Android developed by Square. The library provides a powerful framework for authenticating and interacting with APIs and sending network requests with OkHttp<br><br>
+
+I used it to perform the request to the StackExchange API endpoint.<br>
+I then used Gson for deserializing the response into java object.<br><br>
+<a href="https://square.github.io/retrofit/">https://square.github.io/retrofit/</a><br><br>
+
+<u><h4>Picasso:</u></h4><br>
+Picasso is a powerful image downloading and caching library for Android developed by Square.<br><br>
+
+I used it to handle the download and caching of the StackExchange gravatar\'s users image.<br><br>
+<a href="http://square.github.io/picasso/">http://square.github.io/picasso</a><br><br>
+
+<u><h4>Timber:</u></h4><br>
+Timber is a logger with a small, extensible API which provides utility on top of Android\'s normal Log class.<br><br>
+I used it instead of the default Android Log class.<br><br>
+<a href="https://github.com/JakeWharton/timber">https://github.com/JakeWharton/timber</a>
+
+]]>
+
+    </string>
+
+</resources>

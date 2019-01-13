@@ -1,0 +1,24 @@
+<resources>
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+
+    <dimen name="nav_header_vertical_spacing">8dp</dimen>
+    <dimen name="nav_header_height">176dp</dimen>
+
+
+    <dimen name="picture_width_list">75dp</dimen>
+    <dimen name="picture_height_list">75dp</dimen>
+    <dimen name="picture_progressbar">55dp</dimen>
+
+    <dimen name="text_item_user_name">18sp</dimen>
+    <dimen name="text_item_user_reputation">14sp</dimen>
+    <dimen name="text_item_user_badge">12sp</dimen>
+
+    <dimen name="text_no_data">20sp</dimen>
+    <dimen name="text_btn_refresh">15sp</dimen>
+
+    <dimen name="text_about">18sp</dimen>
+
+    <integer name="grid_span_count">1</integer>
+</resources>
